@@ -12,18 +12,18 @@ export default function Home() {
   return (
     <main className='w-screen'>
       <div className='flex flex-col items-start space-y-16 p-16 w-2/4 mx-auto'>
-        <div className='justify-end'>
+        <div className=''>
           <a className='text-primary font-semibold'>Tim Reber</a>
           <br />
           <a className='text-secondary'>Computer Scientist</a>
         </div>
-        <div className='justify-end'>
+        <div className=''>
           <a className='text-primary font-semibold'>Today</a>
           <br />
           <a className='text-secondary'>I am currently working as a computer science apprentice at PostFinance, where I actively contribute to various projects.
             My passion lies in the field of Kubernetes technology, and I am committed to continually expanding my expertise in this dynamic area.</a>
         </div>
-        <div className='justify-end'>
+        <div className=''>
           <a className='text-primary font-semibold'>Projects</a>
           <div className="grid grid-cols-1 gap-8 mt-4">
             <a href="https://shiper.app/">
@@ -50,6 +50,13 @@ export default function Home() {
                 </CardHeader>
               </Card>
             </a>
+          </div>
+        </div>
+        <div>
+          <a className="text-primary font-semibold">Get in touch</a>
+          <div className="grid grid-cols-3 gap-8 mt-4">
+          <a className="text-secondary" href="https://www.instagram.com/timreber_/">Instagram</a>
+          <a className="text-secondary" href="https://www.linkedin.com/in/tim-reber-79a337230/">LinkedIn</a>
           </div>
         </div>
       </div>
