@@ -12,10 +12,13 @@ export default function Home() {
   return (
     <main className='w-screen'>
       <div className='flex flex-col items-start space-y-16 p-16 w-2/4 mx-auto'>
-        <div className=''>
-          <a className='text-primary font-semibold'>Tim Reber</a>
-          <br />
-          <a className='text-secondary'>Computer Scientist</a>
+        <div className="flex items-center space-x-3">
+          <div className="">
+            <a className='text-primary font-semibold'>Tim Reber</a>
+            <br />
+            <a className='text-secondary'>Computer Scientist</a>
+          </div>
+          <Image src={`/profile_picture.webp`} alt={'profile_picture'} width={80} height={80} className="rounded-lg" />
         </div>
         <div className=''>
           <a className='text-primary font-semibold'>Today</a>
@@ -55,8 +58,8 @@ export default function Home() {
         <div>
           <a className="text-primary font-semibold">Get in touch</a>
           <div className="grid grid-cols-3 gap-8 mt-4">
-          <a className="text-secondary" href="https://www.instagram.com/timreber_/">Instagram</a>
-          <a className="text-secondary" href="https://www.linkedin.com/in/tim-reber-79a337230/">LinkedIn</a>
+            <a className="text-secondary" href="https://www.instagram.com/timreber_/">Instagram</a>
+            <a className="text-secondary" href="https://www.linkedin.com/in/tim-reber-79a337230/">LinkedIn</a>
           </div>
         </div>
       </div>
