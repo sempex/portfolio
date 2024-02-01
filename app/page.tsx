@@ -11,7 +11,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='w-screen'>
-      <div className='flex flex-col items-start space-y-12 p-16 w-2/4 mx-auto'>
+      <div className='flex flex-col items-start space-y-12 p-5 max-w-screen-md mx-auto'>
         <div className="flex items-center space-x-3">
           <Image src={`/profile_picture.webp`} alt={'profile_picture'} width={80} height={80} className="rounded-lg" />
           <div className="">
